@@ -1,0 +1,20 @@
+CREATE TABLE Paw_Smart(id INTEGER PRIMARY KEY, item TEXT, price INTEGER, type TEXT, quantity_in_stock INTEGER);
+
+INSERT INTO Paw_Smart VALUES (1, "Hungry Hound", 50.45, "food", 50);
+INSERT INTO Paw_Smart VALUES (2, "Paw Balm", 10.20, "cosmetics", 50);
+INSERT INTO Paw_Smart VALUES (3, "Dirty Dawg Shampoo", 20.87, "cosmetics", 15);
+INSERT INTO Paw_Smart VALUES (4, "Turkey-Jerky", 6.59, "food", 150);
+INSERT INTO Paw_Smart VALUES (5, "Ear Drops", 62.40, "medicine", 75);
+INSERT INTO Paw_Smart VALUES (6, "Raw Hyde", 14.50, "food", 32);
+INSERT INTO Paw_Smart VALUES (7, "Ball", 7.50, "toy", 42);
+INSERT INTO Paw_Smart VALUES (8, "Vitamin", 16.80, "medicine", 32);
+INSERT INTO Paw_Smart VALUES (9, "bear-toy", 10.20, "toy", 14.30);
+INSERT INTO Paw_Smart VALUES (10, "salmon kibbles", 120, "food", 38);
+INSERT INTO Paw_Smart VALUES (11, "leash", 20.15, "apparel", 45);
+INSERT INTO Paw_Smart VALUES (12, "winter jacket", 70.82, "apparel", 26);
+INSERT INTO Paw_Smart VALUES (13, "dog boots",38.20, "apparel", 32);
+INSERT INTO Paw_Smart VALUES (14, "dog glasses", 40.50, "apparel", 60);
+INSERT INTO Paw_Smart VALUES (15, "flea medication", 145, "medicine", 140);
+SELECT * FROM Paw_Smart;
+SELECT * FROM Paw_Smart ORDER BY price DESC;
+SELECT * FROM Paw_Smart ORDER BY quantity_in_stock DESC;
